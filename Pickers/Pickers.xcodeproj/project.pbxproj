@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		306EF2281626531900C204C5 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 306EF2271626531900C204C5 /* statedictionary.plist */; };
+		306EF23016265D4300C204C5 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 306EF22A16265D4300C204C5 /* apple.png */; };
+		306EF23116265D4300C204C5 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 306EF22B16265D4300C204C5 /* bar.png */; };
+		306EF23216265D4300C204C5 /* cherry.png in Resources */ = {isa = PBXBuildFile; fileRef = 306EF22C16265D4300C204C5 /* cherry.png */; };
+		306EF23316265D4300C204C5 /* crown.png in Resources */ = {isa = PBXBuildFile; fileRef = 306EF22D16265D4300C204C5 /* crown.png */; };
+		306EF23416265D4300C204C5 /* lemon.png in Resources */ = {isa = PBXBuildFile; fileRef = 306EF22E16265D4300C204C5 /* lemon.png */; };
+		306EF23516265D4300C204C5 /* seven.png in Resources */ = {isa = PBXBuildFile; fileRef = 306EF22F16265D4300C204C5 /* seven.png */; };
+		306EF239162663A800C204C5 /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 306EF237162663A800C204C5 /* crunch.wav */; };
+		306EF23A162663A800C204C5 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 306EF238162663A800C204C5 /* win.wav */; };
+		306EF23C1626667800C204C5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306EF23B1626667800C204C5 /* AudioToolbox.framework */; };
 		30E7E2AE1624E928006A7DF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E7E2AD1624E928006A7DF1 /* UIKit.framework */; };
 		30E7E2B01624E928006A7DF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E7E2AF1624E928006A7DF1 /* Foundation.framework */; };
 		30E7E2B21624E928006A7DF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E7E2B11624E928006A7DF1 /* CoreGraphics.framework */; };
@@ -32,6 +42,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		306EF2271626531900C204C5 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
+		306EF22A16265D4300C204C5 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		306EF22B16265D4300C204C5 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		306EF22C16265D4300C204C5 /* cherry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cherry.png; sourceTree = "<group>"; };
+		306EF22D16265D4300C204C5 /* crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crown.png; sourceTree = "<group>"; };
+		306EF22E16265D4300C204C5 /* lemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lemon.png; sourceTree = "<group>"; };
+		306EF22F16265D4300C204C5 /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seven.png; sourceTree = "<group>"; };
+		306EF237162663A800C204C5 /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
+		306EF238162663A800C204C5 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		306EF23B1626667800C204C5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		30E7E2A91624E928006A7DF1 /* Pickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E7E2AD1624E928006A7DF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		30E7E2AF1624E928006A7DF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				306EF23C1626667800C204C5 /* AudioToolbox.framework in Frameworks */,
 				30E7E2AE1624E928006A7DF1 /* UIKit.framework in Frameworks */,
 				30E7E2B01624E928006A7DF1 /* Foundation.framework in Frameworks */,
 				30E7E2B21624E928006A7DF1 /* CoreGraphics.framework in Frameworks */,
@@ -79,9 +100,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		306EF2361626639A00C204C5 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				306EF237162663A800C204C5 /* crunch.wav */,
+				306EF238162663A800C204C5 /* win.wav */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
 		30E7E29E1624E928006A7DF1 = {
 			isa = PBXGroup;
 			children = (
+				306EF23B1626667800C204C5 /* AudioToolbox.framework */,
 				30E7E2B31624E928006A7DF1 /* Pickers */,
 				30E7E2AC1624E928006A7DF1 /* Frameworks */,
 				30E7E2AA1624E928006A7DF1 /* Products */,
@@ -109,6 +140,8 @@
 		30E7E2B31624E928006A7DF1 /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
+				306EF2361626639A00C204C5 /* sounds */,
+				306EF2271626531900C204C5 /* statedictionary.plist */,
 				30E7E2E91625E741006A7DF1 /* img */,
 				30E7E2EB1625E767006A7DF1 /* controller */,
 				30E7E2EA1625E753006A7DF1 /* view */,
@@ -133,6 +166,12 @@
 		30E7E2E91625E741006A7DF1 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				306EF22A16265D4300C204C5 /* apple.png */,
+				306EF22B16265D4300C204C5 /* bar.png */,
+				306EF22C16265D4300C204C5 /* cherry.png */,
+				306EF22D16265D4300C204C5 /* crown.png */,
+				306EF22E16265D4300C204C5 /* lemon.png */,
+				306EF22F16265D4300C204C5 /* seven.png */,
 				30E7E2DF1625E72B006A7DF1 /* clockicon.png */,
 				30E7E2E01625E72B006A7DF1 /* dependenticon.png */,
 				30E7E2E11625E72B006A7DF1 /* doubleicon.png */,
@@ -236,6 +275,15 @@
 				30E7E2E61625E72B006A7DF1 /* doubleicon.png in Resources */,
 				30E7E2E71625E72B006A7DF1 /* singleicon.png in Resources */,
 				30E7E2E81625E72B006A7DF1 /* toolicon.png in Resources */,
+				306EF2281626531900C204C5 /* statedictionary.plist in Resources */,
+				306EF23016265D4300C204C5 /* apple.png in Resources */,
+				306EF23116265D4300C204C5 /* bar.png in Resources */,
+				306EF23216265D4300C204C5 /* cherry.png in Resources */,
+				306EF23316265D4300C204C5 /* crown.png in Resources */,
+				306EF23416265D4300C204C5 /* lemon.png in Resources */,
+				306EF23516265D4300C204C5 /* seven.png in Resources */,
+				306EF239162663A800C204C5 /* crunch.wav in Resources */,
+				306EF23A162663A800C204C5 /* win.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +408,7 @@
 				30E7E2C31624E928006A7DF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,9 +18,12 @@
 - (IBAction)buttonPressed {
     NSDate *selected = [datePicker date];
     NSString *message = [[NSString alloc] initWithFormat:
-                         @"The date and time you selected is: %@", selected]; UIAlertView *alert = [[UIAlertView alloc]
-                                                                                                    initWithTitle:@"Date and Time Selected" message:message
-                                                                                                    delegate:nil cancelButtonTitle:@"Yes, I did." otherButtonTitles:nil];
+                         @"The date and time you selected is: %@", selected];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Date and Time Selected"
+                                              message:message
+                                              delegate:nil
+                                              cancelButtonTitle:@"Cancel"
+                                              otherButtonTitles:nil];
     [alert show];
 }
 
